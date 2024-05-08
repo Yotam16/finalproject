@@ -19,3 +19,6 @@
   },
   "ignorePatterns": ["**/*.config.js", "**/*.config.ts", "dist"]
 }
+
+
+
