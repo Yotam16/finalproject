@@ -21,14 +21,19 @@
     "publish:cli": "bash scripts/publish-cli.sh"
   },
   "dependencies": {
-    "picocolors": "^1.0.0"
+    "fs-extra": "^11.2.0",
+    "kolorist": "^1.8.0",
+    "picocolors": "^1.0.0",
+    "prompts": "^2.4.2"
   },
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^11.1.5",
     "@types/express": "^4.17.21",
+    "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.10.0",
     "@types/node-fetch": "^2.6.9",
+    "@types/prompts": "^2.4.9",
     "@types/socket.io": "^3.0.2",
     "@types/socket.io-client": "^3.0.0",
     "@types/supertest": "^2.0.16",
