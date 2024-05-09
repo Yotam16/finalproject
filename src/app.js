@@ -47,6 +47,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+/* eslint-disable simple-import-sort/imports */
 var react_1 = require("react");
 var axios_1 = require("axios");
 require("./styles.scss");

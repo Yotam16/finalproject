@@ -1,5 +1,6 @@
+
   import React, { useState, useEffect } from 'react';
-  import { Lead } from '../src/models';
+  import { Lead } from './models';
   import axios from 'axios';
 
   import './styles.scss'; 
