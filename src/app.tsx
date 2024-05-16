@@ -1,8 +1,6 @@
-
   import React, { useState, useEffect } from 'react';
   import { Lead } from './models';
   import axios from 'axios';
-
   import './styles.scss'; 
 
   const App: React.FC = () => {
@@ -74,6 +72,9 @@
         console.error('Error editing customer:', error);
       }
     };
+
+    console.log('Customers:', customers);
+
 
     return (
       <div>

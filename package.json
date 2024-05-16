@@ -25,7 +25,8 @@
     "kolorist": "^1.8.0",
     "picocolors": "^1.0.0",
     "prompts": "^2.4.2",
-    "react": "^18.3.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
@@ -50,6 +51,7 @@
     "puppeteer": "^21.5.2",
     "rimraf": "^5.0.5",
     "rollup": "^4.5.2",
+    "sass": "^1.77.1",
     "socket.io": "^4.7.2",
     "socket.io-client": "^4.7.2",
     "supertest": "^6.3.3",

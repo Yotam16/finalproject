@@ -6,7 +6,8 @@ const app = express();
 const leads = [
   {
     id: 1,
-    name: 'John Doe',
+    fname: 'John',
+    lname: 'Doe',
     email: 'john.doe@example.com',
     phone: '123-456-7890',
     address: '123 Main St, City, State, 12345',
@@ -18,7 +19,8 @@ const leads = [
   },
   {
     id: 2,
-    name: 'Jane Smith',
+    fname: 'Jane',
+    lname: 'Smith',
     email: 'jane.smith@example.com',
     phone: '234-567-8901',
     address: '456 Elm St, City, State, 23456',
@@ -30,7 +32,8 @@ const leads = [
   },
   {
     id: 3,
-    name: 'Michael Johnson',
+    fname: 'Michael',
+    lname: 'Johnson',
     email: 'michael.johnson@example.com',
     phone: '345-678-9012',
     address: '789 Oak St, City, State, 34567',
@@ -45,6 +48,7 @@ const leads = [
 app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('/api/leads', (req, res) => {
+  console.log(leads);
   res.json(leads);
 });
 
